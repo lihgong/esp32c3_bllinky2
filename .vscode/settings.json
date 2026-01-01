@@ -1,20 +1,10 @@
 {
   "C_Cpp.intelliSenseEngine": "default",
-  "idf.espIdfPathWin": "C:\\Users\\lihgo\\esp\\v5.5.2\\esp-idf",
-  "idf.pythonInstallPath": "C:\\Users\\lihgo\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
   "idf.openOcdConfigs": [
     "board/esp32c3-builtin.cfg"
   ],
-  "idf.toolsPathWin": "C:\\Users\\lihgo\\.espressif",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32c3"
   },
-  "clangd.path": "C:\\Users\\lihgo\\.espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
-  "clangd.arguments": [
-    "--background-index",
-    "--query-driver=**",
-    "--compile-commands-dir=c:\\Users\\lihgo\\esp32_proj\\esp32c3_bllinky2\\build"
-  ],
   "idf.flashType": "JTAG",
-  "idf.portWin": "COM3"
 }
