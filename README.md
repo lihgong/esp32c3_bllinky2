@@ -26,3 +26,5 @@ git update-index --no-assume-unchanged main/wifi_passwd.h
 I also run following command to exclude it
 git update-index --assume-unchanged .vscode/settings.json
 
+5. Add .clang-format that lets the tool arrange K&R style that I expect to see
+

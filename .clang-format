@@ -1,0 +1,33 @@
+Language: Cpp
+BasedOnStyle: llvm
+IndentWidth: 4
+ColumnLimit: 0
+AlignAfterOpenBracket: DontAlign
+BreakBeforeBinaryOperators: None
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterInitArray: false
+  AfterClass: false
+  AfterControlStatement: false
+  AfterEnum: false
+  AfterFunction: true
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  BeforeCatch: false
+  BeforeElse: false
+  IndentBraces: false
+
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignCompound: false
+  PadOperators: true
+
+PointerAlignment: Right  
+AlignTrailingComments: true
+AllowShortFunctionsOnASingleLine: None
+
+SortIncludes: false
