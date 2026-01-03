@@ -26,10 +26,11 @@ esp_err_t index_get_handler(httpd_req_t *req)
     char resp[256];
     snprintf(resp, sizeof(resp),
         "<html><body><h1>QQMLAB CAN LOGGER</h1>"
+        "<p>Board: %s</p>"
         "<p>System Status: <b>RUNNING</b></p>"
         "<p>Free RAM: %lu bytes</p>"
-        "<hr><p>2026.01.02 - Live Data Test</p></body></html>",
-        esp_get_free_heap_size());
+        "<hr><p>2026.01.03 - Switch to ESP32-CAM board</p></body></html>",
+        BOARD_NAME, esp_get_free_heap_size());
     httpd_resp_send(req, resp, HTTPD_RESP_USE_STRLEN);
     return ESP_OK;
 }
